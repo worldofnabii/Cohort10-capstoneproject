@@ -11,6 +11,7 @@ html {
 body {
     font-family: 'Handlee', serif;
     /* overflow-x: hidden; */
+    padding-top: 80px;
 }
 
 a {
@@ -172,7 +173,7 @@ a {
     background-color: #3c5665;
     opacity: 0;
     transition: opacity 250ms ease-in-out;
-}
+   }
 
 .projects .item:hover .item-layer {
     opacity: 1;
@@ -185,6 +186,7 @@ a {
     color: white;
     font-weight: bold;
     transition: all .4s;
+    padding-top: 20px;
 }
 
 .contact .btn-submit:hover {
