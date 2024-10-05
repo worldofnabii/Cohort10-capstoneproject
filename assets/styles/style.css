@@ -31,17 +31,35 @@ a {
 }
 
 .navbar-nav li a {
-    color: white;
+    color: #3c5665;
     transition: all 1s;
 }
 
 .navbar-nav li a:hover {
-    color: #3c5665;
+    color: #65a9d0;
 }
 
 .navbar .navbar-brand {
     font-size: 24px;
 }
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #3c5665;
+}
+nav ul li a.active{
+    color: white;
+    font-weight: bold;
+}
+
+
+
 
 /* -------------------home---------------- */
 .home {
@@ -99,6 +117,8 @@ a {
 .home-container .layer .home-text button:hover {
     background-color: #92a4b1;
 }
+
+
 
 /* ------------------about---------------- */
 .about-section {
